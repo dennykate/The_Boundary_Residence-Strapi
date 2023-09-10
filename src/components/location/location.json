@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_location_locations",
+  "info": {
+    "displayName": "Location",
+    "icon": "gate"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "text"
+    }
+  }
+}

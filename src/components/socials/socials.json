@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_socials_socials",
+  "info": {
+    "displayName": "Socials",
+    "icon": "command"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_getintouches",
+  "info": {
+    "singularName": "home-getintouch",
+    "pluralName": "home-getintouches",
+    "displayName": "HomeGetintouch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.contact-info"
+    },
+    "openClose": {
+      "type": "component",
+      "repeatable": false,
+      "component": "open-close-hour.open-close-hour"
+    }
+  }
+}

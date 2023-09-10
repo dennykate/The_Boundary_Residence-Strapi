@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_our_feature_heads",
+  "info": {
+    "singularName": "home-our-feature-head",
+    "pluralName": "home-our-feature-heads",
+    "displayName": "HomeOurFeatureHead"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

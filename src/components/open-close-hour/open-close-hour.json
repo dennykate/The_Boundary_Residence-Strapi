@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_open_close_hour_open_close_hours",
+  "info": {
+    "displayName": "OpenCloseHour",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "open": {
+      "type": "text",
+      "required": true
+    },
+    "close": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

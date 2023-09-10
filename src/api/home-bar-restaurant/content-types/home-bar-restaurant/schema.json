@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_bar_restaurants",
+  "info": {
+    "singularName": "home-bar-restaurant",
+    "pluralName": "home-bar-restaurants",
+    "displayName": "HomeBarRestaurant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "cuisine": {
+      "type": "text"
+    },
+    "dressCode": {
+      "type": "string"
+    },
+    "menu": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "explore": {
+      "type": "string"
+    },
+    "openingHours": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_abouts",
+  "info": {
+    "singularName": "home-about",
+    "pluralName": "home-abouts",
+    "displayName": "HomeAbout",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contactInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.contact-info"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_footer_socials",
+  "info": {
+    "singularName": "home-footer-social",
+    "pluralName": "home-footer-socials",
+    "displayName": "HomeFooterSocial"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "contactInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-info.contact-info"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "socials.socials"
+    }
+  }
+}
